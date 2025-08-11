@@ -1,0 +1,113 @@
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.search-wrapper {
+  max-width: 600px;
+}
+
+.search-box {
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.search-box:focus-within {
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.search-input {
+  height: 54px;
+  border-radius: 50px;
+  padding-left: 45px;
+  padding-right: 120px; /* Beri ruang untuk tombol */
+  border: 1px solid #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.search-icon {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+}
+
+.search-button {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50px;
+  height: 42px;
+  width: 100px;
+}
+
+.card-img-top {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background-color: #f0f0f0;
+}
+
+.card-img-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ecef;
+  color: #6c757d;
+}
+
+/* Styling untuk pesan status/loading */
+#status-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 25px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border-left-color: #0d6efd;
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styling untuk tampilan JSON */
+.json-viewer {
+  background-color: #282c34;
+  color: #abb2bf;
+  max-height: 600px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+}

@@ -1,0 +1,7 @@
+.env
+/fix
+
+/node_modules
+
+# File lock
+package-lock.json
