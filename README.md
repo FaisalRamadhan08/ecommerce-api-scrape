@@ -3,7 +3,7 @@
 
 Selamat datang di eBay AI Scraper, aplikasi web yang dirancang untuk mengekstrak data produk dari situs eBay. Proyek ini menggunakan Cheerio untuk navigasi struktur dan kecerdasan AI untuk ekstraksi data yang akurat dari konten HTML.
 
-Aplikasi ini memungkinkan pengguna untuk memasukkan kata kunci, melihat proses scraping secara langsung, dan menampilkan hasilnya dalam format kartu visual  atau format JSON mentah untuk keperluan teknis.
+Aplikasi ini memungkinkan pengguna untuk memasukkan kata kunci, melihat proses scraping secara langsung, dan menampilkan hasilnya dalam format visual  atau format JSON.
 
 
 ## ✨ Fitur Utama
