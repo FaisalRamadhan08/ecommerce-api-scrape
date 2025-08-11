@@ -48,11 +48,11 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lokal.
 
 1. Clone repositori ini:
 ```bash
-  git clone https://github.com/faislrmd08/ecommerce.git
+  git clone https://github.com/FaisalRamadhan08/ecommerce-api-scrape.git
 ```
 2. Masuk ke direktori proyek:
 ```bash
-  cd ecommerce
+  cd ecommerce-api-scrape
 ```
 3. Install semua dependensi yang dibutuhkan:
 ```bash
